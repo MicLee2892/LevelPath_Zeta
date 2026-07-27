@@ -1,0 +1,68 @@
+<resources>
+    <!-- Screen 1 Home Screen-->
+    <string name="app_name">LevelPath</string>
+    <string name="home_title">LevelPath</string>
+    <string name="home_tagline">RPG Build &amp; Leveling Planner</string>
+    <string name="btn_preset_mode">Preset Mode</string>
+    <string name="home_preset_helper">Choose a supported game from a list</string>
+    <string name="btn_generic_mode">Generic Mode</string>
+    <string name="home_generic_helper">Define your own stats and EXP curve</string>
+    <string name="my_builds_title">My Builds</string>
+    <string name="my_builds_subtitle_placeholder">3 saved plans</string>
+
+    <!-- Screen 2: Preset Mode - Select Your Game -->
+    <string name="preset_screen_title">Select Your Game</string>
+    <string name="preset_subtitle">Select a supported game to continue</string>
+    <string name="game_ashfall_name">Ashfall Online (MMO)</string>
+    <string name="game_chrono_name">Chrono Blades (ARPG)</string>
+    <string name="game_ironhold_name">Ironhold Legends (RPG)</string>
+    <string name="game_starforge_name">Starforge Tactics (RPG)</string>
+    <string name="game_wyrmreach_name">Wyrmreach (MMO)</string>
+    <string name="game_subtitle_preset_loaded">Preset stats &amp; EXP curve loaded</string>
+
+    <!-- Screen 3: Generic Mode - Define Your Game -->
+    <string name="generic_screen_title">Define Your Game</string>
+    <string name="label_game_system_name">Game / System Name</string>
+    <string name="hint_game_system_name">e.g. Homebrew Tabletop RPG</string>
+    <string name="label_exp_per_level">EXP per Level (average)</string>
+    <string name="hint_exp_per_level">e.g. 250</string>
+    <string name="label_stats">Stats</string>
+    <string name="stat_damage_name">Damage</string>
+    <string name="stat_persuasion_name">Persuasion</string>
+    <string name="stat_defense_name">Defense</string>
+    <string name="stat_point_cost">Point cost: 1 pt / level</string>
+    <string name="btn_add_stat">+ Add Stat</string>
+    <string name="btn_next_priorities">Next: Set Priorities</string>
+
+    <!-- Screen 4: Set Your Priorities -->
+    <string name="priority_screen_title">Set Your Priorities</string>
+    <string name="priority_subtitle">Target end-game attributes &amp; priority</string>
+    <string name="label_primary">Primary</string>
+    <string name="label_secondary">Secondary</string>
+    <string name="label_tertiary">Tertiary</string>
+    <string name="label_desired_value">Desired End-Game Value</string>
+    <string name="hint_desired_damage">e.g. 85</string>
+    <string name="hint_desired_persuasion">e.g. 60</string>
+    <string name="btn_generate_plan">Generate Plan</string>
+
+    <!-- Screen 5: Your Leveling Plan -->
+    <string name="plan_screen_title">Your Leveling Plan</string>
+    <string name="plan_subtitle">Optimized level-by-level allocation</string>
+    <string name="plan_allocate_label">Allocate point to</string>
+    <string name="btn_start_tracking">Start Tracking Progress</string>
+
+    <!-- Screen 6: Progress Tracker -->
+    <string name="tracker_screen_title">Progress Tracker</string>
+    <string name="tracker_build_name_placeholder">Damage / Persuasion Build</string>
+    <string name="tracker_progress_summary_placeholder">Level 3 of 7 complete</string>
+
+    <!-- Screen 7: My Builds -->
+    <string name="builds_screen_title">My Builds</string>
+    <string name="btn_new_build">+ New Build</string>
+    <string name="build_1_name">Damage / Persuasion Build</string>
+    <string name="build_1_subtitle">Ironhold Legends · 43% complete</string>
+    <string name="build_2_name">Tank Build</string>
+    <string name="build_2_subtitle">Generic Mode · 100% complete</string>
+    <string name="build_3_name">Speedrun Build</string>
+    <string name="build_3_subtitle">Ashfall Online · Not started</string>
+</resources>

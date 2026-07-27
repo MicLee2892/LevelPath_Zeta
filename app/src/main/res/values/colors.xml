@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lp_background">#F7F5F5</color>
+    <color name="lp_surface">#FFFFFF</color>
+    <color name="lp_status_bar">#0D3B78</color>
+    <color name="lp_primary">#1565C0</color>
+    <color name="lp_accent_dim">#DCEAFB</color>
+    <color name="lp_text_primary">#1A1A1A</color>
+    <color name="lp_text_secondary">#6B6B6B</color>
+    <color name="lp_border">#D8DEE8</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

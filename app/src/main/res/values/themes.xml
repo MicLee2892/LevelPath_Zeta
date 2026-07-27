@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LevelPath" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.LevelPath" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/lp_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/lp_primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/lp_surface</item>
+        <item name="colorOnSurface">@color/lp_text_primary</item>
+        <item name="android:colorBackground">@color/lp_background</item>
+        <item name="android:statusBarColor">@color/lp_status_bar</item>
+        <item name="android:navigationBarColor">@color/lp_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
