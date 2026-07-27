@@ -41,9 +41,6 @@ class GeneratedPlanActivity : AppCompatActivity() {
         }
     }
 
-    // One card per level: a numbered circle badge + "Allocate point to [Stat]".
-    // Built from BuildSession.plan, whatever length the algorithm produced -
-    // no assumption of exactly 7 levels anymore.
     private fun buildLevelRow(level: PlanLevel, parent: LinearLayout) {
         val row = LinearLayout(this)
         row.orientation = LinearLayout.HORIZONTAL
@@ -93,8 +90,6 @@ class GeneratedPlanActivity : AppCompatActivity() {
         parent.addView(row)
     }
 
-    // Auto-names the build from its top-priority stat(s), matching the
-    // "Damage / Persuasion Build" style already used in the design mock-ups.
     private fun generateBuildName(): String {
         val primaryStats = BuildSession.stats.filter { it.priority == "Primary" }.map { it.name }
         return when {

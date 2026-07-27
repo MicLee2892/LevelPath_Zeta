@@ -22,19 +22,13 @@ class StatPriorityActivity : AppCompatActivity() {
 
         val priorityContainer = findViewById<LinearLayout>(R.id.container_priorities)
         val desiredContainer = findViewById<LinearLayout>(R.id.container_desired_values)
-
-        // One priority row and one desired-value row per stat, built in the
-        // same order BuildSession.stats is in - that matching order is what
-        // lets Generate Plan read the values back correctly by position.
         for (stat in BuildSession.stats) {
             buildPriorityRow(stat, priorityContainer)
             buildDesiredValueRow(stat, desiredContainer)
         }
-
         findViewById<TextView>(R.id.btn_back).setOnClickListener {
             finish()
         }
-
         findViewById<AppCompatButton>(R.id.btn_generate_plan).setOnClickListener {
             saveDesiredValues(desiredContainer)
             BuildSession.generatePlan()
@@ -85,8 +79,6 @@ class StatPriorityActivity : AppCompatActivity() {
             chips.add(chip)
             chipRow.addView(chip)
         }
-
-        // Reflect the stat's current priority (defaults to "Secondary")
         updateChipStyles(chips, stat.priority)
         parent.addView(chipRow)
     }
